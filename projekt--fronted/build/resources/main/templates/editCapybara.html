@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Capybara</title>
+</head>
+<body>
+<h1>Edit Capybara</h1>
+<p th:if="${errorMessage}" th:text="${errorMessage}"></p>
+<p th:if="${succesMessage}" th:text="${succesMessage}"></p>
+
+<form method="post" th:action="@{'/editCapybara/' + ${capybara.id}}">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" th:value="${capybara.name}" required>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" th:value="${capybara.age}" required>
+
+    <button type="submit" name="save">Save changes</button>
+</form>
+
+<a th:href="@{'/index'}">Cancel</a>
+</body>
+</html>

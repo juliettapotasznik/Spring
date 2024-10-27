@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All capybaras</title>
+
+</head>
+<body>
+<h1>All capybaras</h1>
+<table border="1">
+<thead>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>AGE</th>
+<th>EDIT</th>
+    <th>DELETE</th>
+</thead>
+<tbody>
+    <tr th:each="capy : ${capybaras}">
+        <td th:text = "${capy.id}"></td>
+        <td th:text = "${capy.name}"></td>
+        <td th:text = "${capy.age}"></td>
+        <td><a th:href="@{'/editCapybara/' + ${capy.id}}">edit</a></td>
+        <td><a th:href="@{'/deleteCapybara/' + ${capy.id}}">delete</a></td>
+    </tr>
+</tbody>
+</table>
+<a th:href="@{/addCapybara}">Add new capybara</a>
+
+
+</body>
+</html>

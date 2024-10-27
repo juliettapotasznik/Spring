@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.edu.pjatk.PrzykladWyklad.SeleniumTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-01-27T11:40:22" hostname="JULIETTA" time="22.168">
+  <properties/>
+  <testcase name="indexPageEditCapybara()" classname="pl.edu.pjatk.PrzykladWyklad.SeleniumTest" time="3.019"/>
+  <testcase name="indexPageAddCapybara()" classname="pl.edu.pjatk.PrzykladWyklad.SeleniumTest" time="2.587"/>
+  <testcase name="editPageCapybaraCancel()" classname="pl.edu.pjatk.PrzykladWyklad.SeleniumTest" time="2.685"/>
+  <testcase name="populatePage()" classname="pl.edu.pjatk.PrzykladWyklad.SeleniumTest" time="2.778"/>
+  <testcase name="deletePageCapybara()" classname="pl.edu.pjatk.PrzykladWyklad.SeleniumTest" time="2.724"/>
+  <testcase name="editPageCapybara()" classname="pl.edu.pjatk.PrzykladWyklad.SeleniumTest" time="3.05"/>
+  <testcase name="indexPageDeleteCapybara()" classname="pl.edu.pjatk.PrzykladWyklad.SeleniumTest" time="2.609"/>
+  <testcase name="deletePageCapybaraCancel()" classname="pl.edu.pjatk.PrzykladWyklad.SeleniumTest" time="2.713"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[sty 27, 2024 12:40:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 121, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 121
+sty 27, 2024 12:40:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 121, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 121
+sty 27, 2024 12:40:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 121, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 121
+sty 27, 2024 12:40:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 121, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 121
+sty 27, 2024 12:40:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 121, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 121
+sty 27, 2024 12:40:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 121, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 121
+sty 27, 2024 12:40:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 121, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 121
+sty 27, 2024 12:40:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 121, returning the closest version; found: 120; Please update to a Selenium version that supports CDP version 121
+]]></system-err>
+</testsuite>

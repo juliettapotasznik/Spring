@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add capybara</title>
+</head>
+<body>
+<p th:if="${errorMessage}" th:text="${errorMessage}"></p>
+<p th:if="${succesMessage}" th:text="${succesMessage}"></p>
+<form action="#" th:action="@{/addCapybara}" th:object="${capybara}" method="POST">
+    <H4>Name: </H4>
+<input type="text" th:field="*{name}" name="name" required>
+    <H4>Age: </H4>
+    <input type="number" th:field="*{age}" name="age" required>
+    <br>
+    <br>
+
+    <input type="submit" name="submit" value="Submit">
+</form>
+
+</body>
+</html>

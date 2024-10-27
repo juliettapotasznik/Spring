@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Capybara</title>
+</head>
+<body>
+<h1>Delete Capybara</h1>
+<p>Are you sure you want to delete capybara with ID:
+<p th:if="${errorMessage}" th:text="${errorMessage}"></p>
+<p th:if="${succesMessage}" th:text="${succesMessage}"></p>
+    <span th:text="${capybara.id}"></span> and name: <span th:text="${capybara.name}"></span>?</p>
+
+<form action="#" th:action="@{'/deleteCapybara/' + ${capybara.id}}" method="post">
+    <button type="submit" name="delete">Yes, delete</button>
+</form>
+
+<a th:href="@{'/index'}">Cancel</a>
+</body>
+</html>
